@@ -28,7 +28,7 @@ include_directories(
 IF(PLATFORM_PSP)
     create_pbp_file(
         TARGET ${PROJECT_NAME}
-        ICON_PATH ICON0.PNG
+        ICON_PATH NULL
         BACKGROUND_PATH NULL
         PREVIEW_PATH NULL
         TITLE ${PROJECT_NAME}
